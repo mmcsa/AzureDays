@@ -49,8 +49,8 @@
       "defaultValue": "West Europe",
       "allowedValues": [
         "West Europe",
-        "East US",
-        "West US"
+        "East US 2",
+        "West Central US"
       ],
       "metadata": {
         "description": "Specify the region for your Automation account"

@@ -11,11 +11,11 @@
     },
     "omsAutomationRegion": {
       "type": "string",
-      "defaultValue": "East US",
+      "defaultValue": "East US 2",
       "allowedValues": [
         "West Europe",
-        "East US",
-        "West US"
+        "East US 2",
+        "West Central US"
       ],
       "metadata": {
         "description": "Specify the region for your Automation account"
@@ -49,7 +49,7 @@
     },
     "_artifactsLocation": {
       "type": "string",
-      "defaultValue": "https://raw.githubusercontent.com/lorax79/AzureDays/master/OMS",
+      "defaultValue": "https://raw.githubusercontent.com/mmcsa/AzureDays/master/OMS",
       "metadata": {
         "description": "The base URI where artifacts required by this template are located"
       }
