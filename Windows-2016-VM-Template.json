@@ -188,7 +188,7 @@
     "vnetId": "[resourceid(parameters('virtualNetworkResourceGroup'), 'Microsoft.Network/virtualNetworks', parameters('virtualNetworkName'))]",
     "subnetRef": "[concat(variables('vnetId'), '/subnets/', parameters('SubnetName'))]",
     "networkInterfaceNamePrefix": "VNic",
-    "_artifactsLocation": "https://raw.githubusercontent.com/lorax79/AzureDays/master/",
+    "_artifactsLocation": "https://raw.githubusercontent.com/mmcsa/AzureDays/master",
     "commandToExecute": "[concat('powershell -ExecutionPolicy Unrestricted -File', variables('_artifactsLocation'), 'install-bginfo.ps1')]"
   },
   "resources": [
